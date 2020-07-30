@@ -17,9 +17,9 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 #TARGET_CPU_VARIANT := cortex-a7
 
 # Flags
-TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
-COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=60  
+#TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
+#TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
+#COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=60  
 
 # Architecture
 #TARGET_ARCH := arm64
